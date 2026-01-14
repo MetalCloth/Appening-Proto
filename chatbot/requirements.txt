@@ -1,22 +1,16 @@
-sentence-transformers
-langchain 
-langchain-community
-langchain-google-genai
 langgraph
-pinecone-client
-pypdf2
-google-generativeai
+langchain
+langchain-google-genai
+langchain-groq
+langchain-tavily
+langchain-community
+langchain-huggingface
+langchain-pinecone
+pypdf
+PyPDF2
+langchain_community
 fastapi
-uvicorn[standard]
+uvicorn
 pydantic
-
-# Utils
 python-dotenv
-tiktoken
-
-# Optional: Streamlit UI
 streamlit
-
-# Development
-pytest
-black
