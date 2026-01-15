@@ -2,7 +2,7 @@
 
 A production-ready RAG chatbot that answers questions about Agentic AI using LangGraph, Pinecone, and Gemini.
 
-## i have also a journey.md file to showcase all things i thought / whole process and other things
+## i have also a journey.md file to showcase all things i thought / whole process and other 
 
 ## Demo
 https://github.com/user-attachments/assets/a75351e1-2170-44f5-a651-937f6c77d88e
