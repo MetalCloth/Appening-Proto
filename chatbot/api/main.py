@@ -79,12 +79,11 @@ def sample_query():
 
     return {
         "queries": [
-            "What is Agentic AI?",
-            "How does Agentic AI differ from traditional AI?",
-            "What are multi-agent systems?",
-            "What are the healthcare use cases for Agentic AI?",
-            "What are the challenges of orchestrating multi-agent systems?",
-            "How do you assess organizational readiness for Agentic AI?"
+        "1. How does Agentic AI fundamentally differ from Traditional AI, RPA, and standard LLMs?",
+        "2. Explain the BDI Model and how it drives an agent's behavior within the core pillars of Perception to Execution.",
+        "3. In a Multi-Agent System (MAS), how does the Supply Chain in Crisis scenario demonstrate the superiority of MAS over single-agent systems?",
+        "4. What are the specific challenges of orchestrating complex agentic systems, and how does the Orchestrator mitigate conflict and data security risks?",
+        "5. According to the Organizational Maturity & Readiness Framework, what critical checkpoints must a company pass in the Decision Tree before implementing Agentic AI?"
         ]
     }
     

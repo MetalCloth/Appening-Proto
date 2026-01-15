@@ -151,7 +151,7 @@ def run_graph(query:str)->ChatResponse:
 
     context_chunks = [
         ContexChunk(
-            content=doc['content'][:200] + "...", 
+            content=doc['content'] + "\n", 
             score=doc['score'],
             page=doc['page_label']
         )

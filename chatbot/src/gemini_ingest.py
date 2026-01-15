@@ -13,7 +13,7 @@ from langchain_community.document_loaders import PyPDFLoader, UnstructuredPDFLoa
 from langchain_google_genai.embeddings import GoogleGenerativeAIEmbeddings
 from langchain_pinecone import Pinecone,PineconeVectorStore
 from pinecone import Pinecone,ServerlessSpec
-from langchain_huggingface import HuggingFaceEmbeddings
+# from langchain_huggingface import HuggingFaceEmbeddings
 
 import os
 from dotenv import load_dotenv
