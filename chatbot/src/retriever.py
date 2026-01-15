@@ -47,25 +47,23 @@ def retrieve_context(query,top_k=4):
 
         serialized = "\n\n".join(
             f"""
-        [CHUNK {i+1}]
+    -----------------------------------
         Score       : {score:.4f}
-        Page        : {int(doc.metadata.get("page", -1))}
-        Page Label  : {doc.metadata.get("page_label", "N/A")}
+        Page number  : {doc.metadata.get("page_label", "N/A")}
         Total Pages : {int(doc.metadata.get("total_pages", -1))}
         Source      : {doc.metadata.get("source")}
-        Document ID : {doc.id}
-
         Content:
         {doc.page_content.strip()}
         """.strip()
             for i, (doc, score) in enumerate(retrieved_docs)
         )
+        # s
 
         structured_docs = [
     {
-        "chunk_id": doc.id,
+        # "chunk_id": doc.id,
         "score": float(score),
-        "page": int(doc.metadata.get("page", -1)),
+        # "page": int(doc.metadata.get("page", -1)),
         "page_label": doc.metadata.get("page_label"),
         "total_pages": int(doc.metadata.get("total_pages", -1)),
         "source": doc.metadata.get("source"),
@@ -88,12 +86,3 @@ if __name__ == "__main__":
 
     print(serialized)
     print(docs)
-
-
-
-
-
-
-
-
-
