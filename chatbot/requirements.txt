@@ -15,5 +15,4 @@ pydantic
 python-dotenv
 streamlit
 langsmith
-unstructured[pdf]
 
